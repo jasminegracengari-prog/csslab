@@ -2,20 +2,58 @@
 <html>
 <head>
     <title>Login - The Moonlit Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
+<header >
+        <nav class="navbar">
+            <h1 class="logo">🌙 The Moonlit Library</h1>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="browse.html">Browse</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+</header>
 
 <body>
-    <h1>Login to The Moonlit Library</h1>
+    <div class="split-screen-container">
+    
+    <div class="split-image-side">
+        <img src="Html images/img_21.jpeg" alt="Library Illustration">
+    </div>
+
     <form>
+        <h1>Login to The Moonlit Library</h1>
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required>
-        <br><br>
+        
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required>
-        <br><br>
-        <button type="submit">Login</button><br>
+        
+        <button type="submit">Login</button>
         <a href="signup.html">Don't have an account? Sign up</a>
     </form>
+
+    </div>
+
+    <div class="social-login-container">
+                <p>Or log in with</p>
+        <div class="social-buttons">
+            <a href="https://google.com" target="_blank" class="btn-social btn-google" aria-label="Google">
+                <i class="fab fa-google"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" class="btn-social btn-facebook" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" class="btn-social btn-instagram" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+
 </body>
 </html> 

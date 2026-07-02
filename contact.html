@@ -2,23 +2,28 @@
 <html>
     <head>
         <title> Contact us </title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     </head>
 
 <header >
         <nav class="navbar">
             <h1 class="logo">🌙 The Moonlit Library</h1>
 
-                <a href="index.html">Home</a> |
-                <a href="browse.html">Browse</a> |
-                <a href="contact.html">Contact</a> 
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="browse.html">Browse</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
 </header>
-<hr>
 
     <body>
         <h1>Contact Us at The Moonlit Library</h1>
         <p>We'd love to hear from you!<br> Reach out to us with any questions or feedback.</p>
-        <form>
+        <form id="contact-form">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
             <br><br>
@@ -38,8 +43,22 @@
             <b>Address:</b> 123 Moonlit Lane, Booktown, USA
         </p>
 
+        <div class="social-login-container">
+            <p>Connect with us on social media</p>
+            <div class="social-buttons">
+                <a href="https://google.com" target="_blank" class="btn-social btn-google" aria-label="Google">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="https://facebook.com" target="_blank" class="btn-social btn-facebook" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" class="btn-social btn-instagram" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+
     <footer>
-        <hr>
         <p>&copy; 2026 The Moonlit Library. All rights reserved.</p>
     </footer>
 
